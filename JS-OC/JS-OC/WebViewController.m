@@ -36,11 +36,7 @@ document.location=\"myweb:touch:move:\"+x+\":\"+y;};\
 document.ontouchcancel=function(event){\
 document.location=\"myweb:touch:cancel\";};\
 document.ontouchend=function(event){\
-document.location=\"myweb:touch:end\";};\
-document.onlongtouchstart=function(event){\
-x=event.targetTouches[0].clientX;\
-y=event.targetTouches[0].clientY;\
-document.location=\"myweb:longtouch:start:\"+x+\":\"+y;};";
+document.location=\"myweb:touch:end\";};};";
 
 
 @implementation WebViewController
@@ -69,11 +65,8 @@ document.location=\"myweb:longtouch:start:\"+x+\":\"+y;};";
     NSURL *Url =[NSURL URLWithString:@"http://cdn.duitang.com/uploads/item/201601/27/20160127153237_CheEB.jpeg"];
     _req = [NSURLRequest requestWithURL:Url];
     [_webV loadRequest:_req];
-    
-    
+
     [self.view addSubview:_webV];
-    
-    
 }
 
 

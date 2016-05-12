@@ -20,6 +20,8 @@
 		6FB004E51CC8B85000BEB8C7 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB004E41CC8B85000BEB8C7 /* WKWebViewController.m */; };
 		6FB004E81CC8B9B600BEB8C7 /* UIWebView+WebViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB004E71CC8B9B600BEB8C7 /* UIWebView+WebViewAdditions.m */; };
 		6FB004EA1CC8BC7200BEB8C7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB004E91CC8BC7200BEB8C7 /* WebKit.framework */; };
+		6FF798071CE1E26000CE09BD /* WebLongPressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF798061CE1E26000CE09BD /* WebLongPressViewController.m */; };
+		6FF7980A1CE1E2A400CE09BD /* HMJUnpreventableLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF798091CE1E2A400CE09BD /* HMJUnpreventableLongPressGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		6FB004E61CC8B9B600BEB8C7 /* UIWebView+WebViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+WebViewAdditions.h"; sourceTree = "<group>"; };
 		6FB004E71CC8B9B600BEB8C7 /* UIWebView+WebViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+WebViewAdditions.m"; sourceTree = "<group>"; };
 		6FB004E91CC8BC7200BEB8C7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6FF798051CE1E26000CE09BD /* WebLongPressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebLongPressViewController.h; sourceTree = "<group>"; };
+		6FF798061CE1E26000CE09BD /* WebLongPressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebLongPressViewController.m; sourceTree = "<group>"; };
+		6FF798081CE1E2A400CE09BD /* HMJUnpreventableLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMJUnpreventableLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		6FF798091CE1E2A400CE09BD /* HMJUnpreventableLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMJUnpreventableLongPressGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,10 @@
 				6FB004DF1CC789C700BEB8C7 /* WKWebView+WebViewAdditions.m */,
 				6FB004D81CC7372C00BEB8C7 /* WebViewController.h */,
 				6FB004D91CC7372C00BEB8C7 /* WebViewController.m */,
+				6FF798051CE1E26000CE09BD /* WebLongPressViewController.h */,
+				6FF798061CE1E26000CE09BD /* WebLongPressViewController.m */,
+				6FF798081CE1E2A400CE09BD /* HMJUnpreventableLongPressGestureRecognizer.h */,
+				6FF798091CE1E2A400CE09BD /* HMJUnpreventableLongPressGestureRecognizer.m */,
 				6FB004E61CC8B9B600BEB8C7 /* UIWebView+WebViewAdditions.h */,
 				6FB004E71CC8B9B600BEB8C7 /* UIWebView+WebViewAdditions.m */,
 				6FB004B11CC7360C00BEB8C7 /* Assets.xcassets */,
@@ -295,8 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FB004AD1CC7360C00BEB8C7 /* ViewController.m in Sources */,
+				6FF798071CE1E26000CE09BD /* WebLongPressViewController.m in Sources */,
 				6FB004AA1CC7360C00BEB8C7 /* AppDelegate.m in Sources */,
 				6FB004A71CC7360C00BEB8C7 /* main.m in Sources */,
+				6FF7980A1CE1E2A400CE09BD /* HMJUnpreventableLongPressGestureRecognizer.m in Sources */,
 				6FB004DA1CC7372C00BEB8C7 /* WebViewController.m in Sources */,
 				6FB004E81CC8B9B600BEB8C7 /* UIWebView+WebViewAdditions.m in Sources */,
 				6FB004E01CC789C700BEB8C7 /* WKWebView+WebViewAdditions.m in Sources */,
